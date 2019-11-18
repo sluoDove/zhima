@@ -1,0 +1,11 @@
+server:
+  port: 10087
+  max-http-header-size: 10240
+
+
+spring:
+  datasource:
+    url: jdbc:mysql://47.103.87.87:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT
+    username: admin
+    password: XtD1L0RW
+    filters: wall,mergeStat
