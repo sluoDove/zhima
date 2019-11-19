@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zyt.zhima.mapper.OrderLineMapper" >
+  <resultMap id="BaseResultMap" type="com.zyt.zhima.model.OrderLine" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="order_id" property="orderId" jdbcType="VARCHAR" />
+    <result column="order_user" property="orderUser" jdbcType="BIGINT" />
+    <result column="customer" property="customer" jdbcType="VARCHAR" />
+    <result column="rec_amount" property="recAmount" jdbcType="DECIMAL" />
+    <result column="order_state" property="orderState" jdbcType="CHAR" />
+    <result column="logistics_id" property="logisticsId" jdbcType="VARCHAR" />
+    <result column="logistics_compony" property="logisticsCompony" jdbcType="VARCHAR" />
+    <result column="receive_user" property="receiveUser" jdbcType="VARCHAR" />
+    <result column="receive_phone" property="receivePhone" jdbcType="VARCHAR" />
+    <result column="receive_address" property="receiveAddress" jdbcType="VARCHAR" />
+    <result column="good_id" property="goodId" jdbcType="BIGINT" />
+    <result column="order_num" property="orderNum" jdbcType="INTEGER" />
+    <result column="deposit" property="deposit" jdbcType="DECIMAL" />
+    <result column="deposit_free" property="depositFree" jdbcType="CHAR" />
+    <result column="charge_state" property="chargeState" jdbcType="CHAR" />
+    <result column="charge_amount" property="chargeAmount" jdbcType="DECIMAL" />
+    <result column="charge_date" property="chargeDate" jdbcType="TIMESTAMP" />
+    <result column="return_state" property="returnState" jdbcType="CHAR" />
+    <result column="return_date" property="returnDate" jdbcType="TIMESTAMP" />
+    <result column="freeze_date" property="freezeDate" jdbcType="TIMESTAMP" />
+    <result column="service_state" property="serviceState" jdbcType="CHAR" />
+    <result column="create_date" property="createDate" jdbcType="TIMESTAMP" />
+    <result column="create_by" property="createBy" jdbcType="BIGINT" />
+    <result column="update_date" property="updateDate" jdbcType="TIMESTAMP" />
+    <result column="update_by" property="updateBy" jdbcType="BIGINT" />
+  </resultMap>
+</mapper>
